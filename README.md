@@ -25,11 +25,11 @@ for linking to your current project.
 ## Usage
 
 Either you can clone this repository, or you can copy directly the code from here. But be ensure to add and comfigure those NPM's packages.
-
-`import React from 'react';
+`````
+import React from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, TouchableOpacity, Modal from 'react-native';
 import MultiSelect from 'react-native-multiple-select';
-import Icon from 'react-native-vector-icons/FontAwesome';`
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 class App extends React.Component {
 
@@ -149,6 +149,7 @@ class App extends React.Component {
 };
 
 export default App ;
+`````
 
 
 ## Screenshots
