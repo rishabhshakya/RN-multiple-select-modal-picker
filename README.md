@@ -26,21 +26,10 @@ for linking to your current project.
 
 Either you can clone this repository, or you can copy directly the code from here. But be ensure to add and comfigure those NPM's packages.
 
-import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-  TouchableOpacity,
-  Modal
-} from 'react-native';
-
+`import React from 'react';
+import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, TouchableOpacity, Modal from 'react-native';
 import MultiSelect from 'react-native-multiple-select';
-
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome';`
 
 class App extends React.Component {
 
@@ -50,11 +39,11 @@ class App extends React.Component {
     citySelected : [],
     CityisShownPicker : false,
   }
-}
+  }
 
-handleChange_City = (City) => {
+  handleChange_City = (City) => {
   this.setState({ citySelected : City });
-}
+  }
 
 
   render() {
@@ -99,7 +88,7 @@ handleChange_City = (City) => {
                     onPress={() => {
                         this.setState({ CityisShownPicker: !this.state.CityisShownPicker })
                     }}
-                    style={{ height: 35, alignSelf : "center", borderWidth : 1.5, borderColor : "#800000", borderRadius : 10, flex : 1, flexDirection : "row", marginRight : 20 }}
+                    style={{ height: 35, alignSelf : "center", borderWidth : 1.5, borderColor : "#800000", borderRadius : 10, flex : 1, flexDirection : "row", marginRight : 20                       }}
                   >
                     <Text style = {{ paddingLeft : 10, paddingTop : 2, flex : 0.97}}>Select City</Text>
                     <Icon style = {{color : "#800000", paddingTop : 2, marginRight : 5}} size = {28} name={'arrow-circle-down'} />
