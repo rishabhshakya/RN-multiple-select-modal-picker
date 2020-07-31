@@ -1,3 +1,5 @@
 # RN-multiple-select-modal-picker
 
-Open App.js File
+React Native Multiple Select Modal Picker
+ 
+Open App.js File for code
