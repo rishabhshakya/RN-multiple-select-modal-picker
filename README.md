@@ -12,7 +12,7 @@ or use yarn
 
 `$ yarn add react-native-multiple-select --save`
 
-### 2) For installing react-native-vector-icons
+### 2) For installing [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
 `$ npm install react-native-vector-icons --save` 
 
